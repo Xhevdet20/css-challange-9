@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 300px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #222730;
+}
+
+.rect {
+	height: 150px;
+	width: 100%;
+	background: #4caab3;
+	z-index: 2;
+}
+
+.square-big {
+	height: 250px;
+	width: 250px;
+	background: #222730;
+	position: absolute;
+	transform: rotate(45deg);
+	z-index: 3;
+}
+
+.square-small {
+	height: 150px;
+	width: 150px;
+	background: #4caab3;
+	position: absolute;
+	transform: rotate(45deg);
+	z-index: 4;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	background: #393e46;
+	position: absolute;
+	z-index: 5;
+	border-radius: 50%;
+}
